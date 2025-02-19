@@ -10,7 +10,7 @@ import sttp.model.StatusCode
 
 class ChatGPTService @Inject()(implicit ec: ExecutionContext) {
 
-  private val apiKey = "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" // Replace with actual API key
+  private val apiKey = "-" //API Key
   private val apiUrl = "https://api.openai.com/v1/chat/completions"
   private val backend = AkkaHttpBackend() //BackendInitialisation
 
